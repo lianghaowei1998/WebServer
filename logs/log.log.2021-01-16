@@ -1,0 +1,13 @@
+2021-01-16 20:10:27,015 INFO [com.webserver.servlet.ShowAllUserServlet] - 开始生成动态页面...
+2021-01-16 20:10:27,017 ERROR [com.webserver.servlet.ShowAllUserServlet] - user.dat (系统找不到指定的文件。)
+java.io.FileNotFoundException: user.dat (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:124)
+	at com.webserver.servlet.ShowAllUserServlet.service(ShowAllUserServlet.java:27)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:50)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-16 20:10:27,209 INFO [com.webserver.servlet.ShowAllUserServlet] - 动态页面生成完毕!
+2021-01-16 20:11:03,936 INFO [com.webserver.servlet.ShowAllUserServlet] - 开始生成动态页面...
+2021-01-16 20:11:04,032 INFO [com.webserver.servlet.ShowAllUserServlet] - 动态页面生成完毕!
